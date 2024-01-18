@@ -1,0 +1,80 @@
+.start-panel {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+.start-panel__icons {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-row-end: auto;
+    
+}
+.start-panel__grid {
+    display: grid;
+    grid-template-areas: "kys" ;
+    grid-auto-rows: 2;
+    grid-auto-columns: 4;
+    gap: 5px;
+}
+
+.apps--office {
+    display: grid;
+    grid-auto-columns: 5;
+    grid-auto-rows: 2;
+    gap: 5px;
+}
+.apps--web {
+    display: grid;
+    grid-auto-columns: 5;
+    gap: 5px;
+}
+.apps--other {
+    display: grid;
+    grid-auto-columns: 3;
+    grid-template-rows: 3;
+    gap: 5px;
+}
+.apps__grid {
+ display: grid;
+ grid-template-columns: 5;
+ grid-auto-rows: 2;
+}
+.app--g2x2 {
+    display: grid;
+    position: relative;
+    
+}
+.app--g2x1 {
+    display: grid;
+    position: relative;
+}
+.app--g1x2 {
+    display: grid;
+    position: relative;
+}
+.app--off-3 {
+    display: grid;
+    position: absolute;
+
+}
+.app--off-4 {
+    display: grid;
+    position: absolute;
+}
+.app--off-5 {
+    display: grid;
+    position: absolute;
+}
+.app--in-3 {
+    display: grid;
+    position: absolute;
+}
+.app--fun-2 {
+    display: grid;
+    position: absolute;
+}
+.app--fun-3 {
+    display: grid;
+    position: absolute;
+}
