@@ -12,9 +12,10 @@
 }
 .start-panel__grid {
     display: grid;
-    grid-template-areas: "Office Internet Zábava";
     grid-template-rows: repeat(3,1fr);
     gap: 5px;
+    grid-template-areas: "Office Zábava"
+                         "Internet Zábava"
 }
 
 .apps--office {
