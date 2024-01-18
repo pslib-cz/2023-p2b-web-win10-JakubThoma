@@ -1,6 +1,6 @@
 .start-panel {
     display: grid;
-    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 2fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     
 }
@@ -12,33 +12,27 @@
 }
 .start-panel__grid {
     display: grid;
-    grid-template-areas: "kys" ;
-    grid-auto-rows: 2;
-    grid-auto-columns: 4;
+    grid-template-areas: h;
+    grid-template-rows: repeat(3,1fr);
     gap: 5px;
 }
 
 .apps--office {
     display: grid;
-    grid-auto-columns: 5;
-    grid-auto-rows: 2;
     gap: 5px;
 }
 .apps--web {
     display: grid;
-    grid-auto-columns: 5;
     gap: 5px;
 }
 .apps--other {
     display: grid;
-    grid-auto-columns: 3;
-    grid-template-rows: 3;
     gap: 5px;
 }
 .apps__grid {
  display: grid;
- grid-template-columns: 5;
- grid-auto-rows: 2;
+ grid-auto-rows: 50px;
+ grid-template-columns: repeat(6, 50px);
 }
 .app--g2x2 {
     display: grid;
